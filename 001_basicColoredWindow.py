@@ -6,7 +6,7 @@ root.title("Basic Colored Window")
 
 # Set the size of the window
 root.geometry("500x500")
-root.configure(bg="orange")
+root.configure(bg="#ffbe19")
 
 # Start the main event loop
 root.mainloop()
