@@ -52,11 +52,15 @@ class MainWindow(QMainWindow):
             QMenu{ 
             background-color: #303030;
             color:#ffffff;
+            margin: 0px
             }
             
             /* sub menu items hover */
             QMenu::item:selected { 
             background-color: #707070;
+           
+            
+            
             }
             
         """)
